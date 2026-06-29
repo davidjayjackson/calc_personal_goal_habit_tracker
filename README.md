@@ -1,125 +1,129 @@
-# personal-libreoffice-calc-templates
+![Personal Goal & Habit Tracker](personal-goal-habit-tracker/images/logo-banner.png)
 
-A collection of 10 free, ready-to-use LibreOffice Calc templates for everyday personal use. Each template is designed to be practical, well-organised, and easy to customise — no macros, no complicated setup, just open and start using.
+# Personal Goal & Habit Tracker
 
-## 📦 Templates
+A free, ready-to-use LibreOffice Calc template for setting meaningful goals, tracking daily habits, running weekly reviews, and visualising a full year of consistency at a glance. No macros, no complicated setup — open and start using.
 
-| # | Template | File | Sheets | Description |
-|---|----------|------|--------|-------------|
-| 1 | [Personal Monthly Budget](./personal-monthly-budget/README.md) | `personal-monthly-budget.ots` | 6 | Track income, expenses, and savings goals month by month |
-| 2 | [Home Inventory Tracker](./home-inventory-tracker/README.md) | `home-inventory-tracker.ots` | 5 | Catalogue your belongings by room with insurance valuations |
-| 3 | [Fitness & Workout Tracker](./fitness-workout-tracker/README.md) | `fitness-workout-tracker.ots` | 5 | Log workouts, track progress, and monitor body measurements |
-| 4 | [Meal Planner & Grocery List](./meal-planner-grocery-list/README.md) | `meal-planner-grocery-list.ots` | 5 | Weekly meal planning linked to an auto-generated grocery list |
-| 5 | [Personal Net Worth Tracker](./personal-net-worth-tracker/README.md) | `personal-net-worth-tracker.ots` | 5 | Record assets and liabilities and monitor wealth over time |
-| 6 | [Vacation & Travel Planner](./vacation-travel-planner/README.md) | `vacation-travel-planner.ots` | 5 | Plan itineraries, budgets, packing lists, and bookings |
-| 7 | [Book Reading Log](./book-reading-log/README.md) | `book-reading-log.ots` | 5 | Log every book you read with ratings, stats, and a reading challenge |
-| 8 | [Bill & Subscription Tracker](./bill-subscription-tracker/README.md) | `bill-subscription-tracker.ots` | 5 | Track every recurring payment with renewal alerts |
-| 9 | [Personal Goal & Habit Tracker](./personal-goal-habit-tracker/README.md) | `personal-goal-habit-tracker.ots` | 5 | Set goals, build daily habits, and review your year |
-| 10 | [Vehicle Maintenance Log](./vehicle-maintenance-log/README.md) | `vehicle-maintenance-log.ots` | 5 | Service history, fuel economy, and upcoming maintenance alerts |
+---
 
-## 🚀 Getting Started
+## Preview
+
+![All sheets preview](personal-goal-habit-tracker/images/preview-all-sheets.png)
+
+---
+
+## Template
+
+| File | Format | Sheets | Charts |
+|------|--------|--------|--------|
+| `personal-goal-habit-tracker/personal-goal-habit-tracker.ots` | LibreOffice Calc Template | 5 | 5 |
+
+### Sheets
+
+| # | Sheet | Purpose |
+|---|-------|---------|
+| 1 | **Goals Overview** | Up to 10 goals with category, priority, target date, and progress |
+| 2 | **Daily Habits** | Monthly habit grid — rows are habits, columns are days |
+| 3 | **Weekly Review** | Structured reflection prompts for each week |
+| 4 | **Milestones** | Log of key achievements with dates and notes |
+| 5 | **Year at a Glance** | Heatmap showing habit consistency across all 52 weeks |
+
+---
+
+## Getting Started
 
 ### Requirements
 - [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/) 7.0 or later (free and open source)
 - Works on Windows, macOS, and Linux
 
-### Using a Template
+### Using the Template
 1. Download or clone this repository.
-2. Navigate to the template folder you want.
-3. Double-click the `.ots` file — LibreOffice will open it as a **new untitled document** (the original template is preserved).
-4. Immediately save the new file with a meaningful name (e.g., `Budget-July-2025.ods`).
-5. Start filling in your data.
+2. Open `personal-goal-habit-tracker/personal-goal-habit-tracker.ots` in LibreOffice Calc — it opens as a new untitled document, leaving the template intact.
+3. Save immediately as `.ods` with a meaningful name (e.g. `habits-2026.ods`).
+4. Fill in your goals in **Goals Overview**.
+5. Add 3–7 habits to **Daily Habits** (the habit names in column A).
+6. Each day, mark completed habits with `1`.
+7. Every Sunday, spend 10 minutes on **Weekly Review**.
+8. Log achievements in **Milestones** as they happen.
+9. Check **Year at a Glance** monthly to spot patterns.
 
-Alternatively, open LibreOffice Calc, go to `File → New → Templates`, and browse to the downloaded `.ots` files.
+---
 
-### Saving Your Work
-- Save your working copy as `.ods` (LibreOffice format) to preserve all formatting and formulas.
-- Keep the original `.ots` template files unchanged so you can always start fresh.
+## Screenshots
 
-## 📁 Repository Structure
+| Sheet | Preview |
+|-------|---------|
+| Goals Overview | ![](personal-goal-habit-tracker/images/screenshot-01-goals-overview.png) |
+| Daily Habits | ![](personal-goal-habit-tracker/images/screenshot-02-daily-habits.png) |
+| Weekly Review | ![](personal-goal-habit-tracker/images/screenshot-03-weekly-review.png) |
+| Milestones | ![](personal-goal-habit-tracker/images/screenshot-04-milestones.png) |
+| Year at a Glance | ![](personal-goal-habit-tracker/images/screenshot-05-year-at-a-glance.png) |
 
-```
-personal-libreoffice-calc-templates/
-│
-├── README.md                          ← You are here
-│
-├── personal-monthly-budget/
-│   ├── personal-monthly-budget.ots
-│   └── README.md
-│
-├── home-inventory-tracker/
-│   ├── home-inventory-tracker.ots
-│   └── README.md
-│
-├── fitness-workout-tracker/
-│   ├── fitness-workout-tracker.ots
-│   └── README.md
-│
-├── meal-planner-grocery-list/
-│   ├── meal-planner-grocery-list.ots
-│   └── README.md
-│
-├── personal-net-worth-tracker/
-│   ├── personal-net-worth-tracker.ots
-│   └── README.md
-│
-├── vacation-travel-planner/
-│   ├── vacation-travel-planner.ots
-│   └── README.md
-│
-├── book-reading-log/
-│   ├── book-reading-log.ots
-│   └── README.md
-│
-├── bill-subscription-tracker/
-│   ├── bill-subscription-tracker.ots
-│   └── README.md
-│
-├── personal-goal-habit-tracker/
-│   ├── personal-goal-habit-tracker.ots
-│   └── README.md
-│
-└── vehicle-maintenance-log/
-    ├── vehicle-maintenance-log.ots
-    └── README.md
+---
+
+## Design Conventions
+
+| Style | Meaning |
+|-------|---------|
+| Light blue cell | Input cell — enter your data here |
+| White cell | Formula cell — do not overwrite |
+| Green background | Completed / On Track / positive result |
+| Red background | Missed / At Risk / over budget |
+| Amber background | Warning — review needed |
+| Dropdown arrow | Cell has a predefined list of valid options |
+
+---
+
+## Rebuilding the Template
+
+The template and all images are generated by two Python scripts. To regenerate them:
+
+```bash
+pip install -r requirements.txt
+python3 build_template.py   # creates the .ots and .xlsx files
+python3 build_images.py     # creates the logo, banner, and screenshots
 ```
 
-## 🎨 Design Conventions
+### Scripts
 
-All templates follow consistent conventions:
+| Script | Output |
+|--------|--------|
+| `build_template.py` | `personal-goal-habit-tracker.ots` + `.xlsx` with sample data and embedded charts |
+| `build_images.py` | Logo icon (512 px, 256 px), banner (1600×360), five sheet screenshots, composite preview |
 
-| Convention | Meaning |
-|------------|---------|
-| **Light blue cell background** | Input cell — enter your data here |
-| **White cell background** | Formula cell — do not overwrite |
-| **Green text / background** | Positive result or completed item |
-| **Red text / background** | Negative result, overdue, or over budget |
-| **Amber / yellow background** | Warning — review or action needed |
-| **Dropdown arrows** | Cell has a predefined list of valid options |
+---
 
-## 🛠️ Customising Templates
+## Repository Structure
 
-All templates are designed to be easily adapted:
+```
+calc_personal_goal_habit_tracker/
+│
+├── README.md
+├── requirements.txt
+├── build_template.py
+├── build_images.py
+│
+└── personal-goal-habit-tracker/
+    ├── README.md
+    ├── personal-goal-habit-tracker.ots   ← use this
+    ├── personal-goal-habit-tracker.xlsx  ← source used for conversion
+    └── images/
+        ├── logo-icon.png
+        ├── logo-icon-256.png
+        ├── logo-banner.png
+        ├── preview-all-sheets.png
+        ├── screenshot-01-goals-overview.png
+        ├── screenshot-02-daily-habits.png
+        ├── screenshot-03-weekly-review.png
+        ├── screenshot-04-milestones.png
+        └── screenshot-05-year-at-a-glance.png
+```
 
-- **Rename categories** by editing the dropdown source list on the relevant reference sheet.
-- **Add rows** anywhere in a data table — formulas in summary sheets use dynamic ranges.
-- **Change colours** via `Format → Cells → Background` — the conventions above are defaults, not rules.
-- **Add sheets** if you want to extend a template's functionality.
-- **Delete sheets** you don't need — each sheet is self-contained.
+---
 
-## 🤝 Contributing
+## Licence
 
-Contributions are welcome. If you improve a template or create a new one that fits the personal-use theme, feel free to open a pull request.
-
-Please follow the existing conventions:
-- `.ots` format for templates
-- Consistent sheet naming style
-- A `README.md` in each template folder
-- Input cells in light blue, formula cells in white
-
-## 📄 Licence
-
-These templates are released under the [MIT Licence](./LICENSE). You are free to use, modify, and distribute them for personal or commercial purposes. Attribution is appreciated but not required.
+Released under the [MIT Licence](./LICENSE). Free to use, modify, and distribute for personal or commercial purposes. Attribution appreciated but not required.
 
 ---
 
